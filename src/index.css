@@ -1,0 +1,169 @@
+*{
+  margin:2px;
+  padding: 1px;
+  box-sizing: border-box;
+  font-family: 'arial regular', arial;
+}
+
+body{
+  background-color: #F8F9FA;
+}
+
+.app{
+  background-color: #2f6499;
+  background-size: cover;
+}
+
+
+.app-header{
+  font-family: 'arial regular', 'arial';
+  font-size: 23pt;
+  text-align: center;
+  margin: -30px -50px 5px -50px ;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #dbdbdb;
+}
+
+.container{
+  background-color: #FFFFFF;
+  border: 1px solid #dbdbdb;
+  border-radius: 15px;
+  overflow:auto;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 15px;
+}
+
+.location-box{
+  float: left;
+}
+
+.location-box .location{
+  color: #262626;
+  font-size: 19pt;
+}
+
+.location-box .weatherdesc{
+  color: #70757a;
+  font-size: 13pt;
+  padding-bottom: 50px;
+}
+
+
+.location-box .date{
+  color: #262626;
+  font-size: 15pt;
+}
+
+.location-box .time{
+  color: #70757a;
+  font-size: 13pt;
+}
+
+.weather-box{
+  float: right
+}
+
+.weather-box .temp{
+  color: #262626;
+  font-size: 26pt;
+  text-align: right;
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.weather-box .wind{
+  color: #70757a;
+  font-size: 13pt;
+  text-align: right;
+}
+
+.weather-box .humid{
+  color: #70757a;
+  font-size: 13pt;
+  text-align: right;
+}
+
+.weather-box .perci{
+  color: #70757a;
+  font-size: 13pt;
+  text-align: right;
+}
+
+.allfboxes{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+}
+
+.forecast-box{
+  width: 20%;
+  float:left;
+  box-sizing: border-box;
+  padding-right: 10px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.forecast{
+  background-color: #FFFFFF;
+  border: 1px solid #dbdbdb;
+  border-radius: 15px 15px 0px 0px;
+  overflow:auto;
+  float:left;
+  width: 100%;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.forecastdetails{
+  background-color: #E5F6FD;
+  border: 1px solid #dbdbdb;
+  border-top: 0px;
+  border-radius: 0px 0px 15px 15px;
+  overflow:auto;
+  float:left;
+  width:100%;
+  margin-top: 0px;
+  box-sizing: border-box;
+  font-size:10pt;
+  color:#70757a;
+  text-align: center;
+}
+
+.wholecard{
+  box-sizing: border-box;
+}
+
+.forecast .ftime{
+  font-size: 13pt;
+  color: #70757a;
+  text-align: center;
+}
+
+.forecast .ftemp{
+  font-size: 15pt;
+  color: #262626;
+  text-align: center;
+}
+
+.forecast .ficon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.fbox{
+  margin: 0px;
+  padding: 0px;
+}
